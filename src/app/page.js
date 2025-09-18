@@ -46,12 +46,12 @@ export default function Home() {
                 🔗 Next.js Link Component
               </Link>
 
-              <a
+              <Link
                 href="/problem-video/123"
                 className="block w-full text-center bg-red-700 text-white px-4 py-3 rounded hover:bg-red-800 font-semibold"
               >
                 🔗 Standard HTML Anchor
-              </a>
+              </Link>
 
               <button
                 onClick={() => router.push('/problem-video/123')}
@@ -88,12 +88,12 @@ export default function Home() {
                 🔗 Next.js Link Component
               </Link>
 
-              <a
+              <Link
                 href="/safe-browse"
                 className="block w-full text-center bg-green-700 text-white px-4 py-3 rounded hover:bg-green-800 font-semibold"
               >
                 🔗 Standard HTML Anchor
-              </a>
+              </Link>
 
               <button
                 onClick={() => router.push('/safe-browse')}

@@ -57,7 +57,7 @@ export default function ProblemVideoPage({ params }) {
                 >
                   prageru://video/{params.id}
                 </a>
-                <code className="text-xs">href="prageru://video/{params.id}"</code>
+                <code className="text-xs">href=&ldquo;prageru://video/{params.id}&rdquo;</code>
               </div>
 
               {/* Android Intent Link */}
@@ -88,7 +88,7 @@ export default function ProblemVideoPage({ params }) {
                   Automatic JS Redirect
                 </button>
                 <code className="text-xs">
-                  window.location.href = "prageru://video/{params.id}"
+                  window.location.href = &ldquo;prageru://video/{params.id}&rdquo;
                 </code>
               </div>
 
@@ -99,7 +99,7 @@ export default function ProblemVideoPage({ params }) {
                   Meta Refresh (Would redirect automatically)
                 </div>
                 <code className="text-xs">
-                  &lt;meta http-equiv="refresh" content="0;url=prageru://video/{params.id}"&gt;
+                  &lt;meta http-equiv=&ldquo;refresh&rdquo; content=&ldquo;0;url=prageru://video/{params.id}&rdquo;&gt;
                 </code>
               </div>
             </div>
@@ -177,7 +177,7 @@ export default function ProblemVideoPage({ params }) {
         <div className="mt-8 bg-yellow-100 dark:bg-yellow-900/20 border border-yellow-300 rounded-lg p-6">
           <h3 className="text-xl font-bold text-yellow-700 mb-4">🔍 KEY INSIGHT</h3>
           <p className="text-sm mb-4">
-            <strong>The Problem:</strong> It's not the navigation method that causes app opening - it's what happens ON the destination page!
+            <strong>The Problem:</strong> It&rsquo;s not the navigation method that causes app opening - it&rsquo;s what happens ON the destination page!
           </p>
           <ul className="text-sm space-y-2">
             <li className="flex items-start">
@@ -190,7 +190,7 @@ export default function ProblemVideoPage({ params }) {
             </li>
             <li className="flex items-start">
               <span className="text-yellow-600 mr-2">•</span>
-              This page simulates PragerU's video pages that have problematic JavaScript/meta redirects
+              This page simulates PragerU&rsquo;s video pages that have problematic JavaScript/meta redirects
             </li>
             <li className="flex items-start">
               <span className="text-yellow-600 mr-2">•</span>

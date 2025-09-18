@@ -1,3 +1,5 @@
+'use client';
+
 import Link from "next/link";
 
 export default function BrowsePage() {
@@ -14,7 +16,7 @@ export default function BrowsePage() {
 
         <div className="bg-green-100 dark:bg-green-800 p-6 rounded-lg mb-6">
           <h2 className="text-xl font-semibold mb-4 text-green-600">✅ WORKING CORRECTLY</h2>
-          <p className="mb-4">This page doesn't have the deep linking issue - it allows normal browsing.</p>
+          <p className="mb-4">This page doesn&rsquo;t have the deep linking issue - it allows normal browsing.</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

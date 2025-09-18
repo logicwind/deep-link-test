@@ -256,7 +256,7 @@ export default function SafeBrowsePage() {
           <h3 className="text-xl font-bold text-green-700 mb-4">✅ WHY THIS PAGE WORKS</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
-              <h4 className="font-semibold mb-2">What's Different:</h4>
+              <h4 className="font-semibold mb-2">What&rsquo;s Different:</h4>
               <ul className="text-sm space-y-1">
                 <li className="flex items-start">
                   <span className="text-green-600 mr-2">•</span>

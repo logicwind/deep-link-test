@@ -1,3 +1,5 @@
+'use client';
+
 import Link from "next/link";
 
 export default function SolutionsPage() {
@@ -163,7 +165,7 @@ document.querySelectorAll('.video-link').forEach(link => {
               </pre>
             </div>
             <div className="demo-container">
-              <a
+              <Link
                 href="/video/progressive-demo"
                 className="inline-block bg-purple-600 text-white px-4 py-2 rounded hover:bg-purple-700 mr-4"
                 onClick={(e) => {
@@ -177,7 +179,7 @@ document.querySelectorAll('.video-link').forEach(link => {
                 }}
               >
                 Progressive Video Link
-              </a>
+              </Link>
               <span className="text-sm text-gray-600">✅ Works without JavaScript, enhanced with it</span>
             </div>
           </div>
@@ -190,7 +192,7 @@ document.querySelectorAll('.video-link').forEach(link => {
             <li>Use smart detection to differentiate mobile vs desktop users</li>
             <li>Show an app banner for mobile users instead of forced redirects</li>
             <li>Always give users the choice to continue in browser</li>
-            <li>Make the default behavior "stay in browser" unless user explicitly chooses app</li>
+            <li>Make the default behavior &ldquo;stay in browser&rdquo; unless user explicitly chooses app</li>
           </ul>
         </div>
       </div>
